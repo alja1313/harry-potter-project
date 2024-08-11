@@ -1,0 +1,12 @@
+@font-face {
+  font-family: wizardWorld;
+  src: url(/font/WizardWorldFont.ttf);
+}
+
+h1 {
+  font-family: wizardWorld;
+  font-size: 96px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 144px;
+}
