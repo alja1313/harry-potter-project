@@ -3,6 +3,10 @@
   src: url(/harry-potter-project/font/WizardWorldFont.ttf);
 }
 
+body {
+  font-family: wizardWorld;
+}
+
 h1 {
   font-family: wizardWorld;
   font-size: 96px;
