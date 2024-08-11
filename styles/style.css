@@ -1,16 +1,19 @@
-@font-face {
-  font-family: wizardWorld;
-  src: url(/harry-potter-project/font/WizardWorldFont.ttf);
-}
-
 body {
-  font-family: wizardWorld;
+  font-family: Estonia;
 }
 
 h1 {
-  font-family: wizardWorld;
   font-size: 96px;
   font-weight: 700;
   font-style: normal;
   line-height: 144px;
+}
+
+h2 {
+  font-size: 56px;
+}
+
+footer {
+  font-size: 20px;
+  text-transform: uppercase;
 }
