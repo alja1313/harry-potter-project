@@ -1,19 +1,70 @@
 body {
   font-family: Estonia;
+  background-color: #f5eded;
 }
 
-h1 {
-  font-size: 96px;
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("../images/harry-potter-mix.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #25161b;
+  text-align: center;
+  padding: 100px 0;
+}
+
+header h1 {
+  font-weight: 900;
+  font-size: 150px;
+  line-height: 1;
+  margin: 30px 0;
+}
+
+header h2 {
   font-weight: 700;
-  font-style: normal;
-  line-height: 144px;
+  font-size: 70px;
+  line-height: 1.5;
+  margin: 0;
 }
 
-h2 {
-  font-size: 56px;
+header a {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #f3cba5;
+  color: #25161b;
+  padding: 10px 20px;
+  margin-top: 30px;
+  display: inline-block;
+  opacity: 0.9;
 }
 
 footer {
   font-size: 20px;
   text-transform: uppercase;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 60px;
+  }
+  header h2 {
+    font-size: 32px;
+  }
+  header a {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
 }
