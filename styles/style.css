@@ -4,8 +4,18 @@ body {
 }
 
 .container {
-  max-width: 1500px;
+  max-width: 1400px;
   margin: 0 auto;
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
 }
 
 header {
@@ -15,7 +25,7 @@ header {
   background-size: cover;
   color: #25161b;
   text-align: center;
-  padding: 100px 0;
+  padding: 150px 0;
 }
 
 header h1 {
@@ -49,11 +59,49 @@ header a {
 }
 
 footer {
-  font-size: 20px;
-  text-transform: uppercase;
+  color: #25161b;
+  background-image: linear-gradient(
+      rgba(197, 156, 66, 0.6),
+      rgba(197, 156, 66, 0.6)
+    ),
+    url("../images/hpHedwig.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #25161b;
+  padding: 50px 0;
 }
 
-@media (max-width: 900px) {
+footer h3 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 48px;
+}
+
+footer p {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 30px;
+  margin-right: 50px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  font-weight: 600;
+  font-size: 28px;
+  color: #25161b;
+  opacity: 0.8;
+}
+
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
