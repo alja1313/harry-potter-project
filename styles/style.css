@@ -11,12 +11,20 @@ body {
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px 0;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 2fr;
   grid-gap: 64px;
+}
+
+.grid-2-colums {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-colums-footer {
+  grid-template-columns: 1fr 2fr 2fr;
 }
 
 header {
@@ -59,6 +67,40 @@ header a {
   opacity: 0.9;
 }
 
+main {
+  background-color: #f3cba5;
+  color: #25161b;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 24;
+  line-height: 1.5;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+  opacity: 0.4;
+  margin: 0;
+}
+
+main h3 {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+main p {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.5;
+  opacity: 0.8;
+}
+
+.harry-potter-img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
 footer {
   color: #25161b;
   background-image: linear-gradient(
@@ -69,7 +111,6 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   color: #25161b;
-  padding: 50px 0;
 }
 
 footer h3 {
@@ -114,5 +155,14 @@ footer a {
   header a {
     font-size: 16px;
     padding: 5px 10px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+
+  section {
+    padding: 30px;
   }
 }
