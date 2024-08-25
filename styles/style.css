@@ -45,6 +45,10 @@ section {
   aspect-ratio: 1 / 1;
 }
 
+.pinterest-embeds {
+  margin: 20px 0;
+}
+
 .card {
   background: #f1ead7;
   margin: 30px 0;
@@ -52,6 +56,11 @@ section {
 
 .card-header.grid {
   grid-gap: 0;
+}
+
+.pinterest-pic {
+  margin: 0 auto;
+  display: block;
 }
 
 .card-body {
