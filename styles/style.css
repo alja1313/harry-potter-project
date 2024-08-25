@@ -103,10 +103,20 @@ section {
   text-transform: uppercase;
   padding: 16px;
   text-decoration: none;
+  border-radius: 5px;
 }
 
 .grid-3-colums-footer {
   grid-template-columns: 1fr 2fr 2fr;
+}
+
+.video {
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+  aspect-ratio: 16 / 9;
+  padding: 30px;
+  border-radius: 10px;
 }
 
 header {
@@ -258,5 +268,12 @@ footer a {
 
   .embed {
     aspect-ratio: 16 / 9;
+  }
+
+  .video {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 10px;
   }
 }
