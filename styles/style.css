@@ -11,7 +11,7 @@ body {
 section {
   max-width: 100%;
   margin: 0 auto;
-  padding: 100px;
+  padding: 50px;
 }
 
 .secondary-section {
@@ -24,7 +24,7 @@ section {
 
 .img-responsive {
   display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 .grid {
@@ -40,9 +40,18 @@ section {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}
+
 .card {
   background: #f1ead7;
   margin: 30px 0;
+}
+
+.card-header.grid {
+  grid-gap: 0;
 }
 
 .card-body {
@@ -91,32 +100,34 @@ section {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/harry-potter-mix.jfif");
   background-repeat: no-repeat;
   background-size: cover;
-  color: #25161b;
+  color: #deb895;
   text-align: center;
-  padding: 150px 0;
+  padding: 50px 0;
 }
 
 header h1 {
   font-weight: 900;
-  font-size: 150px;
+  font-size: 100px;
   line-height: 1;
   margin: 30px 0;
+  letter-spacing: 15px;
 }
 
 header h2 {
   font-weight: 700;
-  font-size: 70px;
+  font-size: 50px;
   line-height: 1.5;
   margin: 0;
+  letter-spacing: 5px;
 }
 
 header a {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 3px;
@@ -228,5 +239,13 @@ footer a {
 
   section {
     padding: 30px;
+  }
+
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
